@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="BasicTests(failed)">
+    <classes>
+      <class name="walmart.HomePageTest">
+        <methods>
+          <include name="closeBrowserInstance"/>
+          <include name="clickFromMenuList"/>
+          <include name="openURL"/>
+        </methods>
+      </class> <!-- walmart.HomePageTest -->
+      <class name="walmart.SearchTest">
+        <methods>
+          <include name="closeBrowserInstance"/>
+          <include name="searchValidProduct"/>
+          <include name="openURL"/>
+        </methods>
+      </class> <!-- walmart.SearchTest -->
+    </classes>
+  </test> <!-- BasicTests(failed) -->
+</suite> <!-- Failed suite [Suite] -->
